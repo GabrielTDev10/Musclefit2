@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/Reset.css">
+  <link rel="stylesheet" href="css/Header.css">
+  <link rel="stylesheet" href="css/Modal.css">
+  <link rel="stylesheet" href="css/GridAulas.css">
+  <link rel="stylesheet" href="css/seciton-ebook.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/GridAulas2.css">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/teste.css">
+
+  <title>MuscleFIt | Aulas</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="content">
+      <span><img src="./img/icon.png" alt="Muscle Icon">
+        <h1>MuscleFit</h1>
+      </span>
+      <nav>
+        <ul>
+          <li><a href="#ebs">Ebook</a></li>
+          <li><a href="#mus">Musculação</a></li>
+          <li><a href="#nutri">Nutrição</a></li>
+          <li><a href="#cont">Contato</a></li>
+        </ul>
+      </nav>
+           <img src="img/perfil.png" id="perfil" alt="imagem de login">
+    </div>
+  </header>
+  <main class="main-galery">
+    <div class="galery">
+        <div class="slide">
+              <section class="ebook-aulas" id="ebs">
+                            <div class="part1">
+                                  <img src="img/ebook.png" alt="imagem de ebook">
+                                  <a href="conteudo/Como Ganhar Músculos - Musculação extrema.pdf" download="Ebook MuscleFit"><button>DOWNLOAD EBOOK</button></a>
+                          </div>
+              </section>
+
+              <section class="grid-aulas" id="mus">
+                          <div class="content">
+                            <buttton onclick="openModal('https://www.youtube.com/embed/No6n6r5INkU')">
+                              <div class="box-aula" id="aula1"><p>Aula 1</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/T0NjJ7RApmY')">
+                              <div class="box-aula" id="aula2"><p>Aula 2</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/Fem-R7n59O8')">
+                              <div class="box-aula" id="aula3"><p>Aula 3</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/hOu2AJ2tq3A')">
+                              <div class="box-aula" id="aula4"><p>Aula 4</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/__zyNB3WAa0')">
+                              <div class="box-aula" id="aula5"><p>Aula 5</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/C5Lydghooyg')">
+                              <div class="box-aula" id="aula6"><p>Aula 6</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/0u-yvb_ruDo')">
+                              <div class="box-aula" id="aula7"><p>Aula 7</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/UTHHEOqJIaU')">
+                              <div class="box-aula" id="aula8"><p>Aula 8</p>  </div>
+                            </buttton>
+                          </div>
+                  </section>
+
+                  <section class="grid-aulas1" id="nutri">
+                          <div class="content1">
+                            <buttton onclick="openModal('https://www.youtube.com/embed/PHRnaLn-jEM')">
+                              <div class="box-aula1" id="aula-1"><p>Aula 1</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/SZZT8Lwwtn8')">
+                              <div class="box-aula1" id="aula-2"><p>Aula 2</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/ngWPQwQn0IA')">
+                              <div class="box-aula1" id="aula-3"><p>Aula 3</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/XhIhyI95mio')">
+                              <div class="box-aula1" id="aula-4"><p>Aula 4</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/Byy-bz1S3Lk')">
+                              <div class="box-aula1" id="aula-5"><p>Aula 5</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/XYi3vt36k8k')">
+                              <div class="box-aula1" id="aula-6"><p>Aula 6</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/kQNuE14dmuI')">
+                              <div class="box-aula1" id="aula-7"><p>Aula 7</p></div>
+                            </buttton>
+                            <buttton onclick="openModal('https://www.youtube.com/embed/z2qBanCTDu0')">
+                              <div class="box-aula1" id="aula-8"><p>Aula 8</p></div>
+                            </buttton>
+                          </div>
+                  </section>
+
+                  <section id="cont"> 
+                    <div class="login-page">
+                          <div class="form">
+                              <form class="register-form" action="">
+                                      <input type="text" placeholder="name"/>
+                                      <input type="password" placeholder="password"/>
+                                      <input type="text" placeholder="email address"/>
+                                      <button>create</button>
+                                      <p class="message">Already registered? <a href="#">Sign In</a></p>
+                              </form>
+                              <form class="login-form" action="aulas.html" >
+                                      <input type="text" placeholder="Email"/>
+                                      <textarea name="textarea" id="" cols="50" rows="10"></textarea>
+                                      <button>ENVIAR</button>
+                              </form>
+                          </div>
+                  </div>
+                  </section>
+
+          </div>
+    </div>
+    
+</main>
+<script src="./script/aulas.js"></script>
+</body>
+</html>

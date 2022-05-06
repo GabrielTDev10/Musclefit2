@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.section-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+span>img{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+h1{
+    color: white;
+    font: 400 4rem "Inter", sans-serif;
+}
+
+img{
+    height: 900px;
+}

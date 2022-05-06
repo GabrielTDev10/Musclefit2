@@ -1,0 +1,16 @@
+.section-nutrition{
+    background-color: #07031a;
+    color: white;
+}
+
+.nutrition-image{
+    height: 350px;
+}
+
+.nutrition-description{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
+    text-align: justify;
+}

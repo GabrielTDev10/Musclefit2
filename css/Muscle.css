@@ -1,0 +1,15 @@
+.section-muscle{
+    background-color: #000;
+}
+
+.muscle-image{
+    height: 350px;
+}
+
+.muscle-description{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
+    text-align: justify;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+@media(max-width: 1080px){
+    html{
+        font-size: 93.75%;
+    }
+}
+@media(max-width: 720px){
+    html{
+        font-size: 87.5%;
+    }
+}
+
+body{
+    background-color: black;
+}
+
+body, input, textarea, button{
+    font: 450 1.1rem "Inter", sans-serif;
+}
+
+h1{
+    font: 600 2.3rem "Inter", sans-serif;
+}
+
+a{
+    font: 350 1.1rem "Inter", sans-serif;
+}
+
+p{
+    font: 300 1.2rem "Roboto", sans-serif;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    margin: auto;
+    padding: 220px 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1160px;
+    margin: auto;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1160px;
+    margin: auto;
+}
+
+p{
+    line-height: 1.2;
+}
