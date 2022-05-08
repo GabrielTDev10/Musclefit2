@@ -16,11 +16,17 @@
   <link rel="stylesheet" href="css/video.css">
   <link rel="stylesheet" href="css/teste.css">
 
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="script/aos.js"></script>
+
+
+
   <title>MuscleFIt | Aulas</title>
 </head>
 
 <body>
-  <header class="main-header">
+  <header class="main-header"  data-aos ="fade-right"  data-aos-delay ="450">
     <div class="content">
       <span><img src="./img/icon.png" alt="Muscle Icon">
         <h1>MuscleFit</h1>
@@ -33,21 +39,21 @@
           <li><a href="#cont">Contato</a></li>
         </ul>
       </nav>
-           <img src="img/perfil.png" id="perfil" alt="imagem de login">
+           
     </div>
   </header>
   <main class="main-galery">
     <div class="galery">
         <div class="slide">
-              <section class="ebook-aulas" id="ebs">
+              <section class="ebook-aulas" id="ebs" data-aos ="fade-right"  data-aos-delay ="750">
                             <div class="part1">
                                   <img src="img/ebook.png" alt="imagem de ebook">
                                   <a href="conteudo/Como Ganhar Músculos - Musculação extrema.pdf" download="Ebook MuscleFit"><button>DOWNLOAD EBOOK</button></a>
                           </div>
               </section>
 
-              <section class="grid-aulas" id="mus">
-                          <div class="content">
+              <section class="grid-aulas" id="mus" >
+                          <div class="content" >
                             <buttton onclick="openModal('https://www.youtube.com/embed/No6n6r5INkU')">
                               <div class="box-aula" id="aula1"><p>Aula 1</p></div>
                             </buttton>
@@ -117,7 +123,7 @@
                               <form class="login-form" action="aulas.html" >
                                       <input type="text" placeholder="Email"/>
                                       <textarea name="textarea" id="" cols="50" rows="10"></textarea>
-                                      <button>ENVIAR</button>
+                                      <button id="fas">ENVIAR</button>
                               </form>
                           </div>
                   </div>
@@ -127,6 +133,12 @@
     </div>
     
 </main>
+
 <script src="./script/aulas.js"></script>
+<script  src =" https://unpkg.com/aos@next/dist/aos.js " > </script> 
+<script> 
+        AOS.init ( ) ; 
+</script>
+
 </body>
 </html>

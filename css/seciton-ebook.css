@@ -4,7 +4,7 @@
     height: 1070px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(26 6 6);
+    background-color: rgb(0, 0, 0);
     border-bottom: 1px solid white;
 }
 
@@ -12,8 +12,8 @@
 
 button {
     --glow-color: rgb(0, 0, 0);
-    --glow-spread-color: rgb(90, 12, 12);
-    --enhanced-glow-color: rgb(85, 13, 13);
+    --glow-spread-color: #2a0ac7;
+    --enhanced-glow-color: #2c0ccc;
     --btn-color: rgb(255, 255, 255);
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
