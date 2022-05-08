@@ -18,10 +18,9 @@
     <link rel="stylesheet" href="./css/Muscle.css">
     <link rel="stylesheet" href="./css/Nutrition.css">
 
-    
+  
 
     <script type="text/javascript">
-
         window.addEventListener("scroll",function(){
 
             var header = document.querySelector("header");
@@ -30,18 +29,16 @@
         })
     </script>
 
-    <script>
-
-
-
-
-    </script>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="script/aos.js"></script>
+    
+   
     
 </head>
 
 <body>
-    <header class="main-header">
+    
+    <header class="main-header" data-aos ="fade-right">
         <div class="content">
             <span><img src="./img/icon.png" alt="Muscle Icon">
                 <h1>MuscleFit</h1>
@@ -59,22 +56,24 @@
         </div>
     </header>
 
-    <section class="section-ebook" id="ebook" >
-        <div class="content">
+    <section class="section-ebook" id="ebook">
+        <div class="content" data-aos ="fade-right"  data-aos-delay ="450">
             <img class="ebook-img" src="./img/ebook.png" alt="">
-            <div class="ebook-description">
-                <h1>Nosso Ebook</h1>
-                <p >Maximize seu desempenho nos treinos com esse e-book descubra as estratégias, rotinas e divisões de
-                    treino de como efetivamente ganhar peso e construir músculos.
-                </p>
+            <div class="ebook-description" data-aos ="fade-right" data-aos-delay ="750">
+                 <h1>Nosso Ebook</h1>
+                 <p >Maximize seu desempenho nos treinos com esse e-book descubra as estratégias, rotinas e divisões de
+                     treino de como efetivamente ganhar peso e construir músculos.
+                 </p>
             </div>
         </div>
-    </section>
-    <section class="section-muscle" id="muscle">
+
+
+    </section> 
+    <section class="section-muscle" id="muscle"  data-aos ="fade-right" data-aos-easing ="facil-in-out" data-aos-delay ="450">
         <div class="content">
             <img class="muscle-image" src="./img/musculação.png" alt="Musculação imagem">
 
-            <div class="muscle-description">
+            <div class="muscle-description" data-aos ="fade-right" data-aos-delay ="750">
                 <h1>Musculação</h1>
                 <p>Teremos no ebook várias especializações para melhorar seus grupos musculares. Também apresento vários
                     tipos de divisões de treino.Varie treinos de corpo inteiro e de grupos divididos para estimular
@@ -82,11 +81,11 @@
             </div>
         </div>
     </section>
-    <section class="section-nutrition" id="nutri">
+    <section class="section-nutrition" id="nutri" data-aos ="fade-right" data-aos-delay ="450">
         <div class="content">
             <img class="nutrition-image" src="./img/nutri.png" alt="Musculação imagem">
 
-            <div class="nutrition-description">
+            <div class="nutrition-description" data-aos ="fade-right" data-aos-delay ="750">
                 <h1>Nutrição</h1>
                 <p>O Planejamento e a organização das compras; o que fazer ao comer fora de casa ou em festas e outros
                     eventos; o papel do estilo de vida ativo; a importância de manter a mente presente durante as
@@ -95,11 +94,11 @@
             </div>
         </div>
     </section>
-    <section class="section-mindSet" id="mid">
+    <section class="section-mindSet" id="mid" data-aos ="fade-right" data-aos-delay ="450">
         <div class="content">
             <img class="mindSet-image" src="./img/mind-set.png" alt="MindSet imagem">
 
-            <div class="mindSet-description">
+            <div class="mindSet-description" data-aos ="fade-right" data-aos-delay ="750">
                 <h1>MindSet</h1>
                 <p>
                     Mind-set para não desistir no meio do caminho. Segundo estudos manter foco é essencial para impedir
@@ -109,7 +108,7 @@
             </div>
         </div>
     </section>
-    <footer id="cont">
+    <footer id="cont" data-aos ="fade-right">
         <div class="forte">
             <a href="https://www.facebook.com/"><img src="./img/face.png" alt=""></a>
             <a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="" id="ins"></a>
@@ -119,6 +118,14 @@
         <p>Endereço: Av. Humberto Mallard, 1355 - Santos Dumont, Pirapora - MG, 39270-000</p>
         <p>(38)-99150 6800</p>
     </footer>
+
+
+<script  src =" https://unpkg.com/aos@next/dist/aos.js " > </script> 
+<script> 
+        AOS.init ( ) ; 
+</script>
+
+
 </body>
 
 </html>

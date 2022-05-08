@@ -15,12 +15,3 @@
 }
 
 
-@keyframes linktexto{
-    from{
-        border-right-color: white
-    }
-
-    to{
-        order-right-color: transparent;
-    }
-}
